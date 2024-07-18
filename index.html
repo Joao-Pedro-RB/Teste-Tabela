@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        table, th, td {border: 1px Solid black;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+    <thead>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Informações Adcionais</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>23</td>
+            <td>Estudante</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Maria</td>
+            <td>26</td>
+            <td>Fisioterapeuta</td>
+        </tr>
+        <tr>
+            <td>Enya</td>
+            <td>23</td>
+            <td>Advogada</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <h2>Exemplo colspan</h2>
+
+    <thead>
+        <table>
+        <tr>
+            <th>Nome</th>
+            <th>Rg</th>
+            <th colspan="2">CPF</th>
+            <th>Data de Nascimento</th>
+            <th>Idade</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>Joao</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Sônia</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        </tbody>
+        </table>
+    </thead>
+
+    <h2>Exemplo Rowspan</h2>
+
+    <thead>
+        <table>
+        <tr>
+            <th>Nome</th>
+            <th>Rg</th>
+            <th>CPF</th>
+            <th>Data de Nascimento</th>
+            <th>Idade</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td>Joao</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>0987654</td>
+            <td rowspan="3">7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Sônia</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Enya</td>
+            <td>0987654</td>
+            <td>7890454</td>
+            <td>09/09/09</td>
+            <td>23</td>
+        </tr>
+        </tbody>
+        </table>
+    </thead>
+
+    
+</body>
+</html>
